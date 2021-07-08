@@ -10,7 +10,7 @@ const Carts = item => {
         style={styles.cartImage}
         // source={{ uri: 'https://reactnative.dev/img/tiny_logo.png' }}
         source={{
-          uri: 'https://reactnative.dev/img/tiny_logo.png',
+          uri: item.productItem.imgURL,
         }}
       />
       <Text style={styles.title}> {item.productItem.title} </Text>
